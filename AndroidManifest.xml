@@ -55,8 +55,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:hasCode="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:largeHeap="true" android:logo="@mipmap/ic_launcher_camera" android:name="com.motorola.camera.CameraApp" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_camera_round" android:supportsRtl="true" android:theme="@style/CameraAppTheme">
         <meta-data android:name="android.max_aspect" android:value="2.3"/>
-        <uses-library android:name="com.motorola.motosignature" android:required="true"/>
-        <uses-library android:name="moto-settings" android:required="false"/>
         <uses-native-library android:name="ld-android.so" android:required="false"/>
         <uses-native-library android:name="libbacktrace.so" android:required="false"/>
         <uses-native-library android:name="libbase.so" android:required="false"/>
