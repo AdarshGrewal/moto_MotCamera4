@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d မိနစ်များ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+</resources>

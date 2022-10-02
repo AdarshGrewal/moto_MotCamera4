@@ -1,0 +1,1 @@
+{"d":"EXAMPLE","fs":[{"f":"EXAMPLE","api":"1","region":"us,br","min-ram":2500},{"f":"EXAMPLE_OTHER","exclude-region":"cn","exclude-variant":"sprout"},{"f":"EXAMPLE_VARIANT","variant":"sprout"}]}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/pro_slider_bar_auto_flag" android:layout_width="12.0dip" android:layout_height="fill_parent" android:text="@string/pro_mode_auto_flag" android:layout_alignParentStart="true" style="@style/Fine" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/pro_slider_bar_wb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="24.0dip" android:layout_toEndOf="@id/pro_slider_bar_auto_flag" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/pro_slider_bar_wb_incandescent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_white_balance_incandescent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/pro_slider_bar_wb_flourescent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_white_balance_flourescent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/pro_slider_bar_wb_sunny" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_white_balance_sunny" android:layout_weight="1.0" />
+        <ImageView android:gravity="end" android:id="@id/pro_slider_bar_wb_cloudy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_white_balance_cloudy" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/pro_slider_bar_ae" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="12.0dip">
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_auto_flag" android:layout_width="12.0dip" android:layout_height="12.0dip" android:text="@string/pro_mode_auto_flag" android:layout_alignParentStart="true" style="@style/Fine" />
+        <ImageView android:id="@id/pro_slider_bar_focus_macro" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_focus_macro" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_min_flag" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <ImageView android:id="@id/pro_slider_bar_focus_infinity" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="fill_parent" android:src="@drawable/pro_slider_bar_focus_infinity" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_max_flag" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_01" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_02" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_03" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_04" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+        <TextView android:gravity="center" android:id="@id/pro_slider_bar_ae_05" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Fine" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

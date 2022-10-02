@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_background">#ff000000</color>
+    <color name="color_error">#ffcf6679</color>
+    <color name="color_on_background">#ffffffff</color>
+    <color name="color_on_error">#ff000000</color>
+    <color name="color_on_primary_filled_button">#ff000000</color>
+    <color name="color_on_surface">#ffffffff</color>
+    <color name="color_secondary">#ff353535</color>
+    <color name="color_secondary_variant">#ff353535</color>
+    <color name="color_surface">#ff121212</color>
+    <color name="cta_background_color">#ff3c3c3c</color>
+    <color name="cta_message_contents_color">#99ffffff</color>
+    <color name="cta_message_title_color">#ffffffff</color>
+    <color name="icon_ddp_color">#8affffff</color>
+    <color name="modal_caption_element_color">#26ffffff</color>
+    <color name="modal_color">#ff282e30</color>
+    <color name="moto_cherry">@color/cherry_200</color>
+    <color name="moto_cool_gray">@color/cool_grey_850</color>
+    <color name="moto_dark_lake">@color/dark_lake_A100</color>
+    <color name="moto_error">@color/error_light</color>
+    <color name="moto_magenta_haze">@color/magenta_haze_A200</color>
+    <color name="moto_parasailing">@color/parasailing_A200</color>
+    <color name="moto_saffron">@color/saffron_500</color>
+    <color name="moto_wave">@color/wave_A200</color>
+    <color name="tooltip_dismiss_color">#8a000000</color>
+    <color name="tooltip_text_color">#ff000000</color>
+    <color name="tutorial_button">@color/secondary_main</color>
+    <color name="tutorial_content_text">@color/white</color>
+    <color name="tutorial_content_title">@color/secondary_main</color>
+</resources>

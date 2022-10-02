@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_cta_bg" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/ic_cta_experience" android:layout_width="20.0dip" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/cta_message_title_color" android:gravity="center|top" android:id="@id/cta_message_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/cta_message_title" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/cta_message_contents_color" android:gravity="center|top" android:id="@id/cta_message_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:text="@string/cta_message_content" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+    <View android:background="@color/cta_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/cta_button_color" android:gravity="center" android:id="@id/cta_grant" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/cta_grant" android:textAllCaps="false" />
+    <View android:background="@color/cta_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/cta_button_color" android:gravity="center" android:id="@id/cta_leave" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/cta_leave" android:textAllCaps="false" />
+</LinearLayout>

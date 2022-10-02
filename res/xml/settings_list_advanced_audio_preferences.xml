@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreferenceCompat android:icon="@drawable/audio_zoom" android:title="@string/main_setting_audio_zoom" android:key="@string/settings_list_videos_audio_zoom_key" android:summary="@string/main_setting_audio_focus_summary" />
+        <CheckBoxPreference android:title="@string/main_setting_crystal_talk" android:key="@string/settings_list_videos_audio_noise_reduction_key" android:summary="@string/main_setting_crystal_talk_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

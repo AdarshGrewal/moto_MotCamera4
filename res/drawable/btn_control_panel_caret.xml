@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="8.0dip" android:insetRight="8.0dip" android:insetBottom="@dimen/control_bar_caret_offset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <size android:height="2.0dip" android:width="32.0dip" />
+        <solid android:color="@color/primary_main" />
+    </shape>
+</inset>
